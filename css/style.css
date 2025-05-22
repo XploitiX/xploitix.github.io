@@ -590,6 +590,23 @@ footer {
     transform: translateY(0);
 }
 
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 1rem;
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}
+
 /* Stats counter section */
 .stats-section {
     background-color: var(--secondary-color);
